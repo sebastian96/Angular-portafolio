@@ -10,6 +10,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { ItemComponent } from './pages/item/item.component';
 import { AppRoutingModule } from './shared/app-routing.module';
 import { ContactComponent } from './pages/contact/contact.component';
+import { SearchComponent } from './pages/search/search.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ContactComponent } from './pages/contact/contact.component';
     PortafolioComponent,
     AboutComponent,
     ItemComponent,
-    ContactComponent
+    ContactComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
