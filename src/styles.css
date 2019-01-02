@@ -256,3 +256,8 @@
     -webkit-animation-name: rubberBand;
     animation-name: rubberBand;
 }
+
+svg path,
+svg rect{
+  fill: black;
+}
